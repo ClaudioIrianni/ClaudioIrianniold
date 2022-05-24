@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claudio Alexis Irianni</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/navbar.css" />
+  <link rel="stylesheet" href="css/profile.css">
+  <link rel="stylesheet" href="css/skills.css">
+  <link rel="stylesheet" href="css/estudios.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <script defer src="js/app.js"></script>
+</head>
+
+<body>
+  <header class="topheader">
+    <nav class="topnav">
+      <a href="#" class="logo">
+        <img height="50" width="50" src="img/perfil.webp" alt="software developer" />
+        <div>Claudio Alexis Irianni</div>
+      </a>
+      <button class="open-menu" aria-label="Abrir menú">
+        <img src="img/hamburger-icon.svg" alt="abrir menú" />
+      </button>
+      <ul class="menu">
+        <button class="close-menu" aria-label="Cerrar menú">
+          <img src="img/close-icon.svg" alt="cerrar menú" />
+        </button>
+        <li><a href="#profile">Perfil</a></li>
+        <li><a href="#skills">Habilidades</a></li>
+        <li><a href="#studies">Estudios</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="horizontal-padding vertical-padding">
+    <section class="profile" id="profile">
+      <div class="profile-info">
+        <h1 class="profile-title">Hola, soy <br> Claudio Alexis Irianni</h1>
+        <p class="profile-details">Aficionado de la programación, actualmente enfocado al desarrollo web full stack.<br>
+          Dispuesto a aprender, asumiendo nuevos desafios que permitan desarrollarme profesionalmente.</p>
+        <button class="profile-btn">
+          Descargar CV
+      </div>
+      <div class="profile-img-section">
+        <img class="profile-img" src="img/perfil1.png" alt="software developer">
+        <div class="profile-img-line"></div>
+      </div>
+      </button>
+    </section>
+  </div>
+
+  <div class="horizontal-padding vertical-padding">
+    <section class="skills" id="skills">
+      <h2 class="skills-title">Habilidades</h2>
+      <ul class="skills-list">
+        <li class="skills-skill">HTML5</li>
+        <li class="skills-skill">CSS</li>
+        <li class="skills-skill">JavaScript</li>
+        <li class="skills-skill">PHP</li>
+        <li class="skills-skill">MySQL</li>
+      </ul>
+    </section>
+  </div>
+
+  <section class="experiences" id="studies">
+    <img src="img/wave.svg" alt="división" class="wave">
+    <div class="experiences-body">
+      <h2 class="experiences-title">Estudios</h2>
+      <div class="experiences-grid">
+        <div class="empty"></div>
+        <div class="line"></div>
+        <div class="experience">
+          <div class="experience-date">2022</div>
+          <div class="experience-company">EducacionIT</div>
+          <div class="experience-position">Desarrollador Web Full Stack</div>
+          <div class="experience-description">
+            Beca brindada por J.P. Morgan y Fundación Pescar donde me capacito en los lenguajes de HTML, CSS,
+            JavaScript, PHP y MySQL.
+            Y en la fundación pescar capacitado en habilidades blandas.
+          </div>
+        </div>
+        <div class="experience experience_left">
+          <div class="experience-date">2022</div>
+          <div class="experience-company">Zero To Mastery Academy</div>
+          <div class="experience-position">Web Developer</div>
+          <div class="experience-description">
+            HTML, CSS, Javascript, React, Node.js, Machine Learning.
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="line"></div>
+        <div class="experience">
+          <div class="experience-date">2022</div>
+          <div class="experience-company">Academia BA Emprende</div>
+          <div class="experience-position">Desarrollador Web Full Stack</div>
+          <div class="experience-description">
+            Codo a Codo 4.0 es un Programa de enseñanza en Programación con aprendizaje en:
+            HTML - Java - PHP - Python - Desarrollo Web (JavaScript/Node.JS) - React.Js, Mongo DB, GoLang / Go.
+          </div>
+        </div>
+        <div class="experience experience_left">
+          <div class="experience-date">2017 - 2020</div>
+          <div class="experience-company">Instituto formación tecnica superior Nº20</div>
+          <div class="experience-position">Licenciado en turismo y hospitalidad sustentable</div>
+          <div class="experience-description">
+            30/36 materias aprobadas, carrera actualmente congelada ya que me encuentro enfocado en la programación.
+          </div>
+        </div>
+        <div class="line"></div>
+        <div class="empty"></div>
+        <div class="empty"></div>
+        <div class="line"></div>
+        <div class="experience">
+          <div class="experience-date">2016</div>
+          <div class="experience-company">Escuela Técnica José de San Martin</div>
+          <div class="experience-position">Técnico en Computación</div>
+          <div class="experience-description">
+            Escuela secundaria
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="img/wave.svg" alt="división" class="wave wave_bottom">
+  </section>
+
+  <div class="container">
+    <form action="" method="post" id="contact">
+      <h2 class="experiences-title">CONTACTO</h2>
+      <fieldset>
+        <input placeholder="Tu nombre" type="text" tabindex="1" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Tu email" type="email" tabindex="2" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Tu telefono (opcional)" type="tel" tabindex="3" required>
+      </fieldset>
+      <fieldset>
+        <input placeholder="Tu pagina Web (opcional)" type="url" tabindex="4" required>
+      </fieldset>
+      <fieldset>
+        <textarea placeholder="Deja tu mensaje aquí...." tabindex="5" required></textarea>
+      </fieldset>
+      <fieldset>
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Enviar</button>
+      </fieldset>
+    </form>
+  </div>
+
+
+</body>
+
+</html>
